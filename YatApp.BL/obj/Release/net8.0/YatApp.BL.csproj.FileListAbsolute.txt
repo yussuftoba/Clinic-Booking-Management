@@ -1,0 +1,11 @@
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\bin\Release\net8.0\YatApp.BL.deps.json
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\bin\Release\net8.0\YatApp.BL.dll
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\bin\Release\net8.0\YatApp.BL.pdb
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\YatApp.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\YatApp.BL.AssemblyInfoInputs.cache
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\YatApp.BL.AssemblyInfo.cs
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\YatApp.BL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\YatApp.BL.dll
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\refint\YatApp.BL.dll
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\YatApp.BL.pdb
+C:\Users\Ahmed\Desktop\27_9\YatApp.BL\obj\Release\net8.0\ref\YatApp.BL.dll

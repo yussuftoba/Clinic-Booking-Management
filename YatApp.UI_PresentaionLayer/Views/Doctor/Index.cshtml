@@ -1,0 +1,125 @@
+﻿@model Dto.SearchDto
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h4>SearchDto</h4>
+<hr />
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #f8f9fa;
+	}
+
+	.search-section {
+		background-color: #007bff;
+		color: white;
+		padding: 50px 0;
+		text-align: center;
+	}
+
+		.search-section h1 {
+			font-size: 2.5rem;
+			margin-bottom: 20px;
+		}
+
+	.search-box {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		gap: 15px;
+	}
+
+		.search-box input[type="text"], .search-box select {
+			padding: 15px;
+			border: none;
+			border-radius: 5px;
+			flex: 1;
+		}
+
+		.search-box button {
+			padding: 15px 30px;
+			border: none;
+			border-radius: 5px;
+			background-color: #28a745;
+			color: white;
+			cursor: pointer;
+		}
+
+			.search-box button:hover {
+				background-color: #218838;
+			}
+
+	.category-section {
+		padding: 50px 0;
+	}
+
+	.category-item {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+		.category-item img {
+			width: 100px;
+			margin-bottom: 15px;
+		}
+
+		.category-item h5 {
+			font-size: 1.2rem;
+		}
+
+</style>
+<div class="search-section">
+	<form asp-action="Index" method="post">
+		<div class="search-box">
+			<input asp-for="Name" placeholder="Enter doctor's name" id="doctor-name">
+
+			<!-- Dropdown for Specializations -->
+			<select asp-for="SpecializationId" asp-items="@ViewBag.specs">
+				<option value="">Select Specialization</option>
+			</select>
+
+			<button type="submit">Search</button>
+			</
+		</div>
+	</form>
+</div>
+
+<div id="doctors">
+	<!-- Partial view will load here -->
+ </div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+	<script>
+		$(document).ready(function () {
+			$('form').on('submit', function (e) {
+				e.preventdefault();
+
+				// serialize the form data
+				var formdata = $(this).serialize();
+				console.log(formdata); // log the form data to ensure it's correct
+
+				$.ajax({
+					url: '/doctor/index', // controller and action
+					type: 'post',
+					data: formdata,
+					success: function (response) {
+						console.log(response); // log the response to check the content
+						// update the #doctors div with the returned data
+						$('#doctors').html(response);
+					},
+					error: function (xhr, status, error) {
+						console.error('error occurred: ' + error);
+					}
+				});
+			});
+		});
+	</script>
+}

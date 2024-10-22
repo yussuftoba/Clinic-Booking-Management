@@ -1,0 +1,182 @@
+﻿@using ClinicManagement.BL.CheckLogin
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Medical Website</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .navbar, footer {
+            background-color: #34495e;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .hero-header {
+            background-size: cover;
+            color: black;
+            padding: 100px 0;
+            text-align: center;
+            transition: background-image 1s ease-in-out;
+            position: relative;
+            height: 600px;
+        }
+
+            .hero-header h1 {
+                font-size: 3em;
+                margin-bottom: 20px;
+            }
+
+            .hero-header p {
+                font-size: 1.5em;
+                margin-bottom: 30px;
+            }
+
+            .hero-header .btn {
+                font-size: 1.2em;
+                padding: 10px 20px;
+            }
+
+        .main-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .content-wrapper {
+            flex: 1;
+        }
+
+        footer {
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            margin: 10px;
+            text-align: center;
+        }
+
+            .footer-section h4 {
+                margin-bottom: 10px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .footer-section a {
+                color: white;
+                text-decoration: none;
+            }
+
+        .footer-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+            .footer-icons a {
+                margin: 0 5px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/">Medical Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    @if (CheckLogin.check == 0)
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-action="SignUp" asp-controller="Patient">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-action="SignIn" asp-controller="Patient">Sign In </a></li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Appointment">@CheckLogin.patientName</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-action="SignOut" asp-controller="Patient">Sign Out </a></li>
+                    }
+
+                    
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-header" id="hero-header">
+            <div class="main-content">
+                <h1>Welcome to Our Medical Website</h1>
+                <p>Providing exceptional healthcare services for all your needs.</p>
+            </div>
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <div class="container mt-4">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-section">
+            <a href="#">About Us</a><br>
+            <a href="#">Our Team</a><br>
+            <a href="#">Careers</a><br>
+            <a href="#">Press</a>
+        </div>
+        <div class="footer-section">
+            <h4>Search By</h4>
+            <a href="#">Specialty</a><br>
+            <a href="#">Area</a><br>
+            <a href="#">Insurance</a><br>
+            <a href="#">Hospital</a><br>
+            <a href="#">Center</a>
+        </div>
+        <div class="footer-section">
+            <h4>Need Help?</h4>
+            <a href="#">Medical Library</a><br>
+            <a href="#">Contacts</a><br>
+            <a href="#">Terms of Use</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Doctors Privacy Policy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const images = [
+            'https://physiciansnews.com/photos/2012/10/PCSP-2010-Class_DavidKeith-copy.jpg',
+            'https://thelocaldoctor.com.au/wp-content/uploads/2021/04/doctor-slider-900-768x475.jpg',
+            'https://www.healthstaffrecruitment.com.au/wp-content/uploads/2018/05/Portrait-of-cheerful-doctors.jpg'
+        ];
+        let currentIndex = 0;
+        const heroHeader = document.getElementById('hero-header');
+        function changeBackground() {
+            heroHeader.style.backgroundImage = url(${ images[currentIndex]});
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+        setInterval(changeBackground, 5000);
+        changeBackground(); // Initial call
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

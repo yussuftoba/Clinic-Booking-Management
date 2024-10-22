@@ -1,0 +1,204 @@
+﻿@using ClinicManagement.BL.CheckLogin
+@model IEnumerable<Models.Doctor>
+@{
+	Layout = "_VezeetaLayout";
+}
+<style>
+	.doctor-card {
+		display: flex;
+		border: 1px solid #ddd;
+		margin-bottom: 20px;
+		padding: 15px;
+		border-radius: 20px;
+		width: fit-content;
+	}
+
+	.doctor-info {
+		flex: 1;
+		padding-right: 20px;
+	}
+
+	.doctor-image {
+		width: 100px;
+		height: 100px;
+		object-fit: cover;
+		margin-bottom: 10px;
+		border-radius: 50px;
+		border: 1px solid #ddd;
+	}
+
+	.appointment-calendar {
+		flex: 2;
+		display: flex;
+		align-items: center;
+	}
+
+	.calendar-container {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		border-radius: 10px;
+		border: 1px solid #ddd;
+	}
+
+	.date-column {
+		flex: 1;
+		margin: 0 5px;
+		border: 1px solid #eee;
+	}
+
+	.date-header {
+		background-color: #007bff;
+		color: white;
+		padding: 5px;
+		text-align: center;
+		border-radius: 10px;
+		border: 1px solid #ddd;
+	}
+
+	.time-slot {
+		margin: 2px;
+		padding: 5px;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 10px;
+		border: 1px solid #ddd;
+	}
+
+		.time-slot.selected {
+			background-color: #28a745;
+			color: white;
+		}
+
+	.nav-arrow {
+		font-size: 24px;
+		cursor: pointer;
+		padding: 0 10px;
+	}
+
+	.btn {
+		display: inline-block;
+		padding: 5px 10px;
+		background-color: #dc3545;
+		color: white;
+		text-decoration: none;
+		margin-top: 10px;
+		text-align: center;
+		border-radius: 10px;
+		border: 1px solid #ddd;
+		border-block-end: 10px;
+	}
+</style>
+<div class="doctor-list">
+	@foreach (var doctor in Model)
+	{
+		<div class="doctor-card">
+			<div class="doctor-info">
+				<img src="~/Images/@doctor.Image" alt="Doctor @doctor.FirstName" class="doctor-image">
+				<div class="doctor-name">@doctor.FirstName @doctor.LastName</div>
+				<div class="doctor-qualifications">@doctor.Qualifications</div>
+				<div class="experience">Experience: @doctor.ExperienceYears years</div>
+				<div class="clinic-address">Clinic: @doctor.Address</div>
+				<div class="fees">Fees: @doctor.ConsultationFee</div>
+				<div class="phone">Phone: @doctor.Phone</div>
+				@if (@CheckLogin.check == 0)
+				{
+					<a asp-action="SignIn" asp-controller="Patient">Book Appointment</a>
+				}
+				else
+				{
+					<a asp-action="CreateAppointment" asp-controller="Appointment">Book Appointment</a>
+				}
+			</div>
+
+			<div class="appointment-calendar">
+				<div class="nav-arrow" onclick="navigateCalendar(-3, @doctor.PersonId)">&#8249;</div>
+				<div class="calendar-container" id="calendar-@doctor.PersonId">
+					@for (int i = 0; i < 3; i++)
+					{
+						<div class="date-column">
+							<div class="date-header" id="date-header-@doctor.PersonId-@i"></div>
+							<div class="time-slots" id="time-slots-@doctor.PersonId-@i"></div>
+							<button class="btn" onclick="showMoreSlots(@doctor.PersonId, @i)">More</button>
+						</div>
+					}
+				</div>
+				<div class="nav-arrow" onclick="navigateCalendar(3, @doctor.PersonId)">&#8250;</div>
+			</div>
+		</div>
+	}
+</div>
+
+<script>
+	const doctorCalendars = {};
+
+	function initializeCalendars() {
+		document.querySelectorAll('.doctor-card').forEach(card => {
+			const doctorId = card.querySelector('.btn').getAttribute('onclick').match(/\d+/)[0];
+			doctorCalendars[doctorId] = new Date();
+			updateCalendar(doctorId);
+		});
+	}
+
+	function updateCalendar(doctorId) {
+		for (let i = 0; i < 3; i++) {
+			let date = new Date(doctorCalendars[doctorId]);
+			date.setDate(date.getDate() + i);
+			document.getElementById(`date-header-${doctorId}-${i}`).textContent = date.toLocaleDateString('en-US', { weekday: 'short', month: '2-digit', day: '2-digit' });
+			generateTimeSlots(doctorId, i, date);
+		}
+	}
+
+	function generateTimeSlots(doctorId, columnIndex, date) {
+		let slotsContainer = document.getElementById(`time-slots-${doctorId}-${columnIndex}`);
+		slotsContainer.innerHTML = '';
+		let startHour = 10;
+		let endHour = 12; // Show two hours initially
+
+		for (let hour = startHour; hour < endHour; hour++) {
+			for (let minute = 0; minute < 60; minute += 30) {
+				let timeSlot = document.createElement('div');
+				timeSlot.className = 'time-slot';
+				timeSlot.textContent = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+				timeSlot.onclick = () => selectTimeSlot(doctorId, timeSlot);
+				slotsContainer.appendChild(timeSlot);
+			}
+		}
+	}
+
+	function showMoreSlots(doctorId, columnIndex) {
+		let slotsContainer = document.getElementById(`time-slots-${doctorId}-${columnIndex}`);
+		let lastSlot = slotsContainer.lastElementChild;
+		let [lastHour, lastMinute] = lastSlot.textContent.split(':').map(Number);
+
+		for (let minute = 0; minute < 60; minute += 30) {
+			let timeSlot = document.createElement('div');
+			timeSlot.className = 'time-slot';
+			timeSlot.textContent = `${(lastHour + 1).toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+			timeSlot.onclick = () => selectTimeSlot(doctorId, timeSlot);
+			slotsContainer.appendChild(timeSlot);
+		}
+	}
+
+	function selectTimeSlot(doctorId, slot) {
+		document.querySelectorAll(`#calendar-${doctorId} .time-slot`).forEach(s => s.classList.remove('selected'));
+		slot.classList.add('selected');
+	}
+
+	function navigateCalendar(days, doctorId) {
+		doctorCalendars[doctorId].setDate(doctorCalendars[doctorId].getDate() + days);
+		updateCalendar(doctorId);
+	}
+
+	function bookAppointment(doctorId) {
+		let selectedSlot = document.querySelector(`#calendar-${doctorId} .time-slot.selected`);
+		if (selectedSlot) {
+			alert(`Booking appointment with Doctor ID ${doctorId} for ${selectedSlot.textContent}`);
+		} else {
+			alert('Please select a time slot first.');
+		}
+	}
+
+	// Initialize the calendars when the page loads
+	window.onload = initializeCalendars;
+</script>

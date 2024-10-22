@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\YatApp.UI_PresentaionLayer.props" />
+</Project>

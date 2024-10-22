@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sgX/NEA6VW8BjXyGE9+xOXVyvqGLLjw6iJSwGBQgMwI=",
+  "Source": "YatApp.Api",
+  "BasePath": "_content/YatApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

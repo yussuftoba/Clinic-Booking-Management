@@ -1,0 +1,97 @@
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\yussu\Downloads\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\madha\Downloads\Clinic Management\27_9\27_9\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.sourcelink.json
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+E:\.net_yat\Project\Clinic Management\Clinic\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.sourcelink.json
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\farou\Source\Repos\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.sourcelink.json
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\madha\Downloads\Project_API_Hospita\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.sourcelink.json
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+C:\Users\yussu\OneDrive\Desktop\Clinic Management\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.AssemblyReference.cache
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.AssemblyReference.cache
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.sourcelink.json
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+C:\Users\madha\Downloads\New folder\Project_API_Hospita\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.deps.json
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\bin\Debug\net8.0\ClinicManagement.BL.pdb
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.AssemblyReference.cache
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfoInputs.cache
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.AssemblyInfo.cs
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.csproj.CoreCompileInputs.cache
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.sourcelink.json
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\refint\ClinicManagement.BL.dll
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ClinicManagement.BL.pdb
+E:\.net_yat\Project\Clinic Management\27_9\27_9\Project_API_Hospital\YatApp.BL\obj\Debug\net8.0\ref\ClinicManagement.BL.dll
