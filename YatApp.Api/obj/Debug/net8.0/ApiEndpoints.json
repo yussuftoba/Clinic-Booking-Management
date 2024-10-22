@@ -24,49 +24,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "AppointmentDate",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "Status",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Symptoms",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PatientId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "PatientName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DoctorId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "DoctorName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "File",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      },
-      {
-        "Name": "FileUrl",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "ClinicManagement.BL.Dto.AppointmentDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

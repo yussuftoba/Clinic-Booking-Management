@@ -114,57 +114,26 @@ namespace ClinicsBookingDEPIProject.Controllers
 
 
         [HttpPost("createwithfile")]
-        public async Task<IActionResult> createwithfile([FromForm] AppointmentDto dto)
+        public async Task<IActionResult> createwithfile([FromBody] AppointmentDto dto)
         {
-            // Check if the file is provided
-            if (dto.File == null || dto.File.Length == 0)
-            {
-                return BadRequest(new { Message = "File is required." });
-            }
 
-            // Define the file path to save the uploaded file
-            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "UploadedFiles");
-            if (!Directory.Exists(uploadsFolder))
-            {
-                Directory.CreateDirectory(uploadsFolder);
-            }
+           
 
-            var filePath = Path.Combine(uploadsFolder, dto.File.FileName);
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await dto.File.CopyToAsync(stream);
-            }
-
-            // Create the appointment object
             Appointment appointment = new Appointment()
             {
-                AppointmentDate = DateTime.Now,
+                AppointmentDate = dto.AppointmentDate,
                 DoctorId = dto.DoctorId,
                 PatientId = dto.PatientId,
                 Status = dto.Status,
                 Symptoms = dto.Symptoms,
-                FilePath = filePath // Save the file path in the appointment
+                FilePath = "jhgjhhjgh" 
             };
 
-            // Add the appointment to the repository
             var createdAppointment = _unitofWork.Appointments.Add(appointment);
-            _unitofWork.Save(); // Ensure you have an asynchronous save method
+            _unitofWork.Save(); 
 
             return Ok(createdAppointment);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
