@@ -171,7 +171,7 @@
         let currentIndex = 0;
         const heroHeader = document.getElementById('hero-header');
         function changeBackground() {
-            heroHeader.style.backgroundImage = url(${ images[currentIndex]});
+            heroHeader.style.backgroundImage = `url(${ images[currentIndex]})`;
             currentIndex = (currentIndex + 1) % images.length;
         }
         setInterval(changeBackground, 5000);

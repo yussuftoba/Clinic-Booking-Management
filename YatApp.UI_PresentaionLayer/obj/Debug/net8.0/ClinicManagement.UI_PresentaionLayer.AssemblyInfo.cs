@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicManagement.UI_PresentaionLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7851635aee0494d4570254b1bbb4142e01e1053a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1b6c63dfd5d956ed1048119b07082ab145b1074")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicManagement.UI_PresentaionLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicManagement.UI_PresentaionLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,7 +19,7 @@ namespace ClinicManagement.UI_PresentaionLayer.Controllers
         public async Task<IActionResult> Index()
         {
             int z = CheckLogin.check;
-            var appointments = await _api.GetAllAsync<AppointmentDto>($"Appointment/patient/{CheckLogin.check}");
+            var appointments = await _api.GetAllAsync<AppointmentDto>($"Appointment/GetAppointmentsByPatientId/{CheckLogin.check}");
             if (appointments == null || !appointments.Any())
             {
                 // Option 1: Return the same view with empty list

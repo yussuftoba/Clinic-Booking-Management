@@ -4668,19 +4668,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\madha\\.nuget\\packages\\": {}
+    "C:\\Users\\yussu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.Api\\ClinicManagement.API.csproj",
+      "projectUniqueName": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.Api\\ClinicManagement.API.csproj",
       "projectName": "ClinicManagement.API",
-      "projectPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.Api\\ClinicManagement.API.csproj",
-      "packagesPath": "C:\\Users\\madha\\.nuget\\packages\\",
-      "outputPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.Api\\obj\\",
+      "projectPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.Api\\ClinicManagement.API.csproj",
+      "packagesPath": "C:\\Users\\yussu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\madha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yussu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4695,8 +4695,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.DAL\\ClinicManagement.DAL.csproj": {
-              "projectPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.DAL\\ClinicManagement.DAL.csproj"
+            "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.DAL\\ClinicManagement.DAL.csproj": {
+              "projectPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.DAL\\ClinicManagement.DAL.csproj"
             }
           }
         }
@@ -4746,7 +4746,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

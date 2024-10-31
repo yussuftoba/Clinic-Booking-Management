@@ -81,7 +81,7 @@ namespace ClinicsBookingDEPIProject.Controllers
         }
 
 
-        [HttpGet("patient/{patientId}")]
+        [HttpGet("GetAppointmentsByPatientId/{patientId}")]
         public async Task<IActionResult> GetAppointmentsByPatientId(int patientId)
         {
             // Retrieve all appointments for the specified patient ID
@@ -126,7 +126,7 @@ namespace ClinicsBookingDEPIProject.Controllers
                 PatientId = dto.PatientId,
                 Status = dto.Status,
                 Symptoms = dto.Symptoms,
-                FilePath = "jhgjhhjgh" 
+                FilePath = @"C:\\PatientFiles\\12349.pdf"
             };
 
             var createdAppointment = _unitofWork.Appointments.Add(appointment);

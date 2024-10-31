@@ -594,10 +594,7 @@
           "Microsoft.AspNetCore.Http.Features": "5.0.17"
         },
         "runtime": {
-          "ClinicManagement.BL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ClinicManagement.BL.dll": {}
         }
       }
     }

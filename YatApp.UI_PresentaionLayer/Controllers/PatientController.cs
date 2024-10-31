@@ -60,8 +60,6 @@ namespace YatApp.UI_PresentaionLayer.Controllers
             {
                 try
                 {
-
-
                     var res = await _api.GetByIdAsync<Patient>($"Patient/IsValidLoginIn?email={signIn.Email}&password={signIn.Password}");
 
                     if (res != null)
@@ -71,16 +69,10 @@ namespace YatApp.UI_PresentaionLayer.Controllers
                         return RedirectToAction("Index", "Appointment");
                     }
 
-                    ModelState.AddModelError("", "Email or Password is incorrect, Please try again!");
-                }
-                catch (HttpRequestException ex)
-                {
-                
-                    ModelState.AddModelError("", "Unable to process login request. Please try again later.");
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError("", "An unexpected error occurred. Please try again later.");
+                    ModelState.AddModelError("", "Email or Password is incorrect, Please try again!");
                 }
             }
             return View(signIn);

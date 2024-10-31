@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lOn7VREpbwY=",
+  "dgSpecHash": "+Q/wKuA6QVw=",
   "success": true,
-  "projectFilePath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\ClinicManagement.BL.csproj",
+  "projectFilePath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\ClinicManagement.BL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\madha\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
-    "C:\\Users\\madha\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\madha\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+    "C:\\Users\\yussu\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\yussu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\yussu\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

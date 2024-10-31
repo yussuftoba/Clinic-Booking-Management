@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj": {}
+    "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj": {}
   },
   "projects": {
-    "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\ClinicManagement.BL.csproj": {
+    "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\ClinicManagement.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\ClinicManagement.BL.csproj",
+        "projectUniqueName": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\ClinicManagement.BL.csproj",
         "projectName": "ClinicManagement.BL",
-        "projectPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\ClinicManagement.BL.csproj",
-        "packagesPath": "C:\\Users\\madha\\.nuget\\packages\\",
-        "outputPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\obj\\",
+        "projectPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\ClinicManagement.BL.csproj",
+        "packagesPath": "C:\\Users\\yussu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yussu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj": {
+    "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj",
         "projectName": "ClinicManagement.UI_PresentaionLayer",
-        "projectPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj",
-        "packagesPath": "C:\\Users\\madha\\.nuget\\packages\\",
-        "outputPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.UI_PresentaionLayer\\obj\\",
+        "projectPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.UI_PresentaionLayer\\ClinicManagement.UI_PresentaionLayer.csproj",
+        "packagesPath": "C:\\Users\\yussu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.UI_PresentaionLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yussu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\ClinicManagement.BL.csproj": {
-                "projectPath": "E:\\.net_yat\\Project\\Clinic Management\\27_9\\27_9\\Project_API_Hospital\\YatApp.BL\\ClinicManagement.BL.csproj"
+              "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\ClinicManagement.BL.csproj": {
+                "projectPath": "C:\\Users\\yussu\\OneDrive\\Desktop\\Clinic Management\\Clinic Booking Management\\YatApp.BL\\ClinicManagement.BL.csproj"
               }
             }
           }
@@ -149,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
